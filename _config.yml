@@ -7,7 +7,7 @@ title:            Jun
 tagline:          'A Jekyll theme'
 description:      'To be Datascientist'
 url:              https://vlufoot.github.io
-baseurl:          '/hydeout'
+baseurl:          ''
 disqus.shortname: disqus_dkP2psU9cp
                   # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
