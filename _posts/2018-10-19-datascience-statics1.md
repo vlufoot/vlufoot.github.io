@@ -81,11 +81,9 @@ make inferences about the popluation by using sampling data. 단, 집단은 다�
 2. Numerical(정량) - 수치화 할 수 있는 정보
 * 통장 잔고
 * 자녀의 수
-
 실제 세상에는 정성정보가 더 많음, 통계적으로는 정량적 변수들이 좋음
-
-2.1. Discrete variable : the number of cups in my house
-2.2. Continuous variable : weight, height
+  1. Discrete variable : the number of cups in my house
+  2. Continuous variable : weight, height
 
 <!--more-->
 
