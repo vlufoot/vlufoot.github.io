@@ -3,7 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Jun
+title:            Vlufoot
 tagline:          'A Jekyll theme'
 description:      'To be Datascientist'
 url:              https://vlufoot.github.io
