@@ -78,8 +78,8 @@ make inferences about the popluation by using sampling data. 단, 집단은 다�
 * 지역
 * 색깔
 
-2. Numerical(정량) - 수치화 할 수 있는 정보 
-  2-1. Discrete variable : the number of cups in my house
+2. Numerical(정량) - 수치화 할 수 있는 정보  
+  2-1. Discrete variable : the number of cups in my house  
   2-2. Continuous variable : weight, height
 * 통장 잔고
 * 자녀의 수
