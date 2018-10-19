@@ -80,12 +80,12 @@ make inferences about the popluation by using sampling data. 단, 집단은 다�
 
 ## Type of scale
 
+| 척도 | 설명 | 예시 |
 | -------- | ------ |  ------ |
 |Ratio Scale| Differences between measurements, true zero exists | Height, Age | 
 |Interval Scale|Differences between measurements but no true zero|Temperature|
 |Ordinal Scale|Ordered Categories (rankings, order, or scaling)|good 10 / soso 20 / bad 15|
 |Nominal Scale|Categories (no ordering or direction)|What workers want? Salary / WLB / Better retirement|
-| -------- | ------ |  ------ |
 
 통계분석하기에는 데이터간의 거리를 알기 쉽기 때문에 비율척도가 좋지만 실제로는 명목척도가 제일 많다.
 
