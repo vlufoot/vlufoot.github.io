@@ -1,5 +1,3 @@
-2018-10-19-datascience-biz_statistics_intro.md
-
 ---
 layout: post
 title: "biz_statistics_intro"
