@@ -84,8 +84,8 @@ make inferences about the popluation by using sampling data. 단, 집단은 다�
 
 실제 세상에는 정성정보가 더 많음, 통계적으로는 정량적 변수들이 좋음
 
-2-1. Discrete variable : the number of cups in my house
-2-2. Continuous variable : weight, height
+2.1. Discrete variable : the number of cups in my house
+2.2. Continuous variable : weight, height
 
 <!--more-->
 
