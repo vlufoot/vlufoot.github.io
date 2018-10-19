@@ -11,19 +11,19 @@ tags:
 ## Objective
 Can explain the concepts and statistical techniques used to data analysis.
 
-"<!--more-->"
+<!--more-->
 
 ## WHY
 * Number occupy the largest part of the information.
 * We can make a desicion more effectively and predict result.
 * Statics can be applicale to all field.
 
-"<!--more-->"
+<!--more-->
 
 ## [History of Statistics](https://en.wikipedia.org/wiki/History_of_statistics)
 The term "statistics" coined in 1749 in German. But There have been changes to the interpretion of the word over time. In early times, the meaning was restricted to information about states, particularly demographics such as population. This was later extended to include all collections of information of all types(Aliis Exterendum). In modern terms, it was extended to include the analysis and interpretation of such data. 
 
-"<!--more-->"
+<!--more-->
 
 ## Terminology
 * Population : All students in my school
@@ -37,13 +37,13 @@ The term "statistics" coined in 1749 in German. But There have been changes to t
 * Interval scale
 * Ratio scale
 
-"<!--more-->"
+<!--more-->
 
 ## Process
 * Collect -> Organize(analysis) -> Present -> Interpret
 * GIGO : Garbage in, garbage out (we should review causality)
 
-"<!--more-->"
+<!--more-->
 
 ## Total inspection? Sampling inspection ?
 
@@ -52,7 +52,7 @@ COST(All resource include time, money, human resource, etc)
 > Viewer ratings(by using sampling)
 > But we can do total inspection recently(big data era)
 
-"<!--more-->"
+<!--more-->
 
 ## Descriptive Statistics
 
@@ -60,7 +60,7 @@ Describes and summarises data in an intuitive form
 * table
 * graph
 
-"<!--more-->"
+<!--more-->
 
 ## Inferential statistics
 
@@ -68,6 +68,8 @@ make inferences about the popluation by using sampling data. 단, 집단은 다�
 
 * 추론 - 표본 집단의 몸무게를 측정해서 모집단의 평균 몸무게 추론
 * 가설 검정 - 모집단의 몸무게 평균이 70kg라는 가설을 세우고 검증
+
+<!--more-->
 
 ## type of data
 
@@ -85,7 +87,7 @@ make inferences about the popluation by using sampling data. 단, 집단은 다�
 2-1. Discrete variable : the number of cups in my house
 2-2. Continuous variable : weight, height
 
-"<!--more-->"
+<!--more-->
 
 ## Type of scale
 
@@ -102,11 +104,11 @@ What workers want? Salary / WLB / Better retirement
 
 
 
-
+<!--more-->
 
 
 
 ## reference
-wikipedia
-경영통계 상명대 유태종교수님
+* wikipedia
+* 경영통계 상명대 유태종교수님
 
