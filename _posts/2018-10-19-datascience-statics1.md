@@ -4,6 +4,7 @@ title: "biz_statistics_intro"
 excerpt_separator: "<!--more-->"
 categories:
   - Data Science
+  - Essay
 tags:
   - Basic Statistics
 ---
