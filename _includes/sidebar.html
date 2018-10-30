@@ -11,7 +11,76 @@
     <p class="lead">{{ site.description }}</p>
   </header>
   {% include sidebar-nav-links.html %}
+  
+# =========================
+<style>
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
 
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+</style>
+-->
+
+<div class="col-box col-box-author">
+  <!--
+  <img class="avatar" src="{{ site.avatar }}" alt="{{ site.author }}">
+  <div class="col-box-title name">{{ site.author }}</div>
+  -->
+  <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="yunho0130"><a class="LI-simple-link" href='https://avatars2.githubusercontent.com/u/44258181?s=400&v=4'>Yunho Maeng</a></div>
+  <p>{{ site.profile }}</p>
+  <p class="contact">
+    {% if site.twitter_username %}
+    <a href="https://twitter.com/{{ site.twitter_username }}">Twitter</a>
+    {% endif %}
+    {% if site.email %}
+    <a href="mailto:{{ site.email }}">Email</a>
+    {% endif %}
+    <a href="https://www.facebook.com/yunho0130">Facebook</a>
+  </p>
+    <!-- 
+    <a href="https://www.linkedin.com/in/yunho0130">Linkedin</a>
+    {% if site.github_username %}
+    <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+    {% endif %}
+     -->
+<!-- col-box-line -->
+<!--
+<div class="gallery">
+  <a target="_blank" href="fjords.jpg">
+    <img src="fjords.jpg" alt="Fjords" width="150" height="200">
+  </a>
+  <div class="desc">222Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="forest.jpg">
+    <img src="forest.jpg" alt="Forest" width="150" height="200">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+</body>
+</html> 
+  </p>
+</div>
+
+#\\\\\\\\\\\\\\\\\\\\\\\\\
   {% if site.version %}
     <span class="site-version">Currently v{{ site.version }}</span>
   {% endif %}
@@ -19,3 +88,5 @@
   {% include sidebar-icon-links.html %}
   {% include copyright.html %}
 </div>
+
+
