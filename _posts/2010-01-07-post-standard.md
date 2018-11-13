@@ -1,13 +1,11 @@
 ---
 layout: post
-title: "Post: Standard"
+title: "Post: Standard:summary"
 excerpt_separator: "<!--more-->"
 categories:
-  - English
+  - Data Science
 tags:
-  - Post Formats
-  - readability
-  - standard
+  - Git
 ---
 
 **`page.title` example:**
