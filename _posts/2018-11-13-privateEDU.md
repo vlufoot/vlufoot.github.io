@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "수요대응형 버스 신규노선 제안(소규모프로젝트)"
+title: "사교육의영향(프로젝트)"
 excerpt_separator: "<!--more-->"
 categories:
   - Project
