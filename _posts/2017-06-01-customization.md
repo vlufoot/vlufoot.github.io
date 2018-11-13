@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Hello Hydeout
+excerpt_separator:  <!--more-->
 categoty : 
   - Data Science
-excerpt_separator:  <!--more-->
 tags:
   - Git
 ---
