@@ -8,7 +8,7 @@ tags:
   - Machine Learning
 ---
 ### TensorFlow?
-TensorFlow is an open source software library for numerical computation using *data flow graphs*.
+TensorFlow is an open source software library for numerical computation using **data flow graphs**.
 Python으로 작동함!
 
 ### Data Flow Graph가 뭐야..?
