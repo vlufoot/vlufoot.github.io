@@ -69,5 +69,37 @@ print("sess.run(node3):", sess.run(node3))
 ```
 
 
+### Placeholder
+상수로 넣지 말고 그래프만 미리 만들어 놓고 실행단계에서 값을 던져주기 위해 씀
+```python
+a = tf.placeholder(tf.float32)
+b = tf.placeholder(tf.float32)
+adder_node = a + b
+
+# 값도 같이 넘겨주자
+print(sess.run(adder_node, feed_dict = {a:3, b:4.5}))
+# array로 여러개 넘겨줄 수 있음
+print(sess.run(adder_node, feed_dict = {a:{1,3}, b:{4.5}}))
+```
+위에서 본 세 단계랑 똑같이 placeholder라는 노드를 만들고 sess.run에 데이터를 넘겨주면 return 받는것
+
+### Tensor?
+- Rank(차원) : Scalar(0), Vector(1), Matrix(2), 3-Tensor, .... n-Tensor
+```python
+s = 483   # RANK 0 (magnitude)
+v = [1.1, 2.2, 3.3]  # RANK 1 (magnitude and direction)
+m = [[1, 2, 3], [4,5,6]] # RANK 2 (table of numbers)
+....
+```
+- Shape : 각각의 element에 몇 개가 들어 있니?
+```
+t = tf.constant([[[1, 1, 1], [2, 2, 2]], [[3, 3, 3], [4, 4, 4]]])
+tf.shape(t)  # [2, 2, 3]
+```
+
+- Type : 대부분 float32 사용 / tf.float32
+
+
+
 ### References
 모두의 딥러닝 / Sung Kim / Youtube
