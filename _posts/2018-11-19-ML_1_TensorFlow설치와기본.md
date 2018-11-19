@@ -41,7 +41,7 @@ print(sess.run(hello))
 ### Computational Graph
 
 - TensorFlow Mechanics
-[tensorflow_1](/assets/tensorflow_1)
+[tensorflow_1](/assets/tensorflow_1.PNG)
 1. 그래프를 우선 만들어야함
 2. sess.run으로 그래프를 실행시킴
 3. 어떤값이 return 됨
