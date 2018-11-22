@@ -57,12 +57,12 @@ Describes and summarises data in an intuitive form. 데이터를 보기 편하�
 
 ## Inferential statistics(추리통계학)
 
-make inferences about the popluation by using sampling data. 단, 집단은 다수의 개별 객체로 구성.  
+make inferences about the popluation by using sampling data. 단, 집단은 다수의 개별 객체로 구성(표본집단은 랜덤하게 샘플링 되야함)  
 ex)우리 반 40명의 몸무게를 재보니 평균 60kg네? 우리 학교 200명 전체의 몸무게 평균은 60kg +-오차범위 3kg 신뢰구간 95% 일거야!  
-이제 오차범위는 어떻게 구하고 신뢰구간은 어떻게 정하냐? 이런거 배울거에요.
+이제 오차범위는 어떻게 구하고 신뢰구간은 어떻게 정하냐? 이런거 배울거에요. 통계적 추론은 크게 두 가지로 나뉨
 
-* 추론 - 표본 집단의 몸무게를 측정해서 모집단의 평균 몸무게 추론
-* 가설 검정 - 모집단의 몸무게 평균이 70kg라는 가설을 세우고 검증
+1. 추정(estimate) - 표본 집단의 몸무게를 측정해서 모집단의 평균 몸무게 추론
+2. 가설 검정 - 모집단의 몸무게 평균이 70kg라는 가설을 세우고 검증
 
 <!--more-->
 
