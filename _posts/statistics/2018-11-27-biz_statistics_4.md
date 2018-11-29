@@ -196,6 +196,21 @@ ppois(q=20, lambda=20)
 
 
 
+**ggplot을 활용한**
+```r
+library(ggplot2)
+
+
+df<- data.frame(x=0:20, prob=dbinom(0:20, size=20, prob=0.2))
+ggplot(data=df, aes(x=x, y=prob))+geom_line()
+
+
+df2 <- data.frame(x=(0:20), prob=dpois(c(0:20),lambda = 4))
+ggplot(data=df2, aes(x=x, y=prob))+geom_line()
+
+```
+
+
 ## references
 
 경영통계 / 유태종교수님
