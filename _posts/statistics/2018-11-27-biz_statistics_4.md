@@ -193,7 +193,13 @@ ppois(q=20, lambda=20)
 * n이 충분히 크고(100이상), 파이가 충분히 작다면(0.001) 이항확률분포는 푸아송분포로 대체 가능
 * 특히, 'n*파이<5'를 만족하면 대체가능
 
+```r
+# 어느 학생이 시험을 보는데 한문제 맞힐 확률이 0.05
+# 50개의 문제중에서 5개의 정답을 찾아낼 확률은?
 
+dbinom(x=5, size=50, p=0.05)
+dpois(x=5, lambda = 2.5)
+```
 
 
 **ggplot을 활용한**
@@ -213,7 +219,8 @@ ggplot(data=df2, aes(x=x, y=prob))+geom_line()
 
 ## references
 
-경영통계 / 유태종교수님
-https://kuduz.tistory.com
-http://rfriend.tistory.com
-https://www.pinnacle.com/ko/betting-articles/Soccer/how-to-calculate-poisson-distribution/MD62MLXUMKMXZ6A8
+경영통계 / 유태종교수님  
+https://kuduz.tistory.com  
+http://rfriend.tistory.com  
+https://www.pinnacle.com/ko/betting-articles/Soccer/how-to-calculate-poisson-distribution/MD62MLXUMKMXZ6A8  
+http://over153cm.tistory.com/entry/%ED%86%B5%EA%B3%84-%ED%91%B8%EC%95%84%EC%86%A1-%EB%B6%84%ED%8F%AC?category=460517  
