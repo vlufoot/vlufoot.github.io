@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Curation"
+title: "Visualization"
 excerpt_separator: "<!--more-->"
 categories:
-  - Project
+  - Data Science
 tags:
-  - Project
+  - R
 ---
 
 ## 산점도
