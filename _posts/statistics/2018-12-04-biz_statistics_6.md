@@ -1,14 +1,14 @@
 ---
 layout : post
 title : "biz_statistics_추정"
-categories : -Data Science
-tags : -statistics
+categories : - Data Science
+tags : - statistics
 ---
 
 추정과 신뢰구간
 
 1.추정 ~> 표본을 갖고 모집단을 ~일걸? 가늠
-# 2.검증 ~> "65kg" -> 통계적 확인 -> 몇%로 정확했다
+2.검증 ~> "65kg" -> 통계적 확인 -> 몇%로 정확했다
 
 --
 원래는 // 점추정 : 65kg => 불가능
