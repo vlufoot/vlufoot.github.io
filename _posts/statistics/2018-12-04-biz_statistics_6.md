@@ -1,8 +1,8 @@
 ---
 layout : post
 title : "biz_statistics_추정"
-categories : - Data Science
-tags : - statistics
+categories : Data Science
+tags : statistics
 ---
 
 추정과 신뢰구간
